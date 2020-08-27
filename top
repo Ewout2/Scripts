@@ -1,0 +1,7 @@
+base: 
+  'itv2f-ubu-24.internal.cloudapp.net':
+    - wordpress 
+  'ewout-minion.internal.cloudapp.net': 
+    - docker 
+  '*':
+ - logserver 
