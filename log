@@ -1,0 +1,9 @@
+ontvangen: 
+   cmd.run:
+     - name: curl -sS -O http://10.0.6.135/nagioslogserver/scripts/setup-linux.sh
+     - cwd:/
+
+toevoegen:
+   cmd.run:
+     - name: sudo bash setup-linux.sh -s 10.0.6.135 -p 5544 
+     - cwd:/
